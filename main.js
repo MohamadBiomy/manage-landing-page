@@ -71,12 +71,7 @@ fetch("./JSON/testimonials.json").then(res => res.json())
   });
 
   // scroll testimonials slider
-  if (scrollerInner.offsetWidth > document.documentElement.clientWidth) { // check if scrolling is needed
-    scrollTestimonials()
-  }
-  // window.addEventListener("resize", () => {
-
-  // })
+  scrollTestimonials()
 })
 
 
